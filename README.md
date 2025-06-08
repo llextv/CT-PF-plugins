@@ -4,6 +4,7 @@ Bienvenue dans la marketplace communautaire de scénarios pour **CT-PF**, une ap
 
 - 🧠 **Télécharger un scénario** via l'URL d’un fichier `.json` brut
 - 🛠️ **Créer votre propre plugin** de scénario
+  -> **Vous pouvez utiliser le builder.** [Lien vers le builder](https://llextv.github.io/CT-PF-plugins/builder/)
 - 📬 **Soumettre une pull request** pour le partager dans la marketplace publique
 
 ---
