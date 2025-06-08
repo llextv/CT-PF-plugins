@@ -1,0 +1,15 @@
+{
+    "name": "Nationalisation Surprise des Pétrolières",
+    "description": "Un pays producteur nationalise brutalement ses majors pétrolières",
+    "details": "Un État pétrolier décide soudainement de nationaliser les entreprises pétrolières étrangères opérant sur son territoire, bouleversant le marché de l'énergie.",
+    "color": "#e11d48",
+    "duration": "10",
+    "impact": {
+      "Action": -25,
+      "Etf": -20,
+      "Crypto": -10,
+      "MatierePremieres": 30,
+      "Obligations": 5
+    }
+  }
+  

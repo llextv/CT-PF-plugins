@@ -1,0 +1,15 @@
+{
+    "name": "Effet Domino des Banques Régionales US",
+    "description": "Faillites en cascade des banques américaines régionales",
+    "details": "Plusieurs petites banques régionales américaines s'effondrent sous la pression des taux élevés et de la fuite des dépôts, provoquant une panique dans le secteur bancaire.",
+    "color": "#dc2626",
+    "duration": "12",
+    "impact": {
+      "Action": -40,
+      "Etf": -33,
+      "Crypto": -15,
+      "MatierePremieres": 6,
+      "Obligations": 15
+    }
+  }
+  

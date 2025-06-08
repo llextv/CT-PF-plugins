@@ -1,0 +1,15 @@
+{
+    "name": "Chute Brutale du Marché Immobilier US",
+    "description": "Le marché immobilier américain s’effondre",
+    "details": "Une bulle immobilière éclate aux États-Unis, rappelant 2008, avec un impact sur les banques, les ménages et l’ensemble du système financier.",
+    "color": "#991b1b",
+    "duration": "20",
+    "impact": {
+      "Action": -45,
+      "Etf": -38,
+      "Crypto": -15,
+      "MatierePremieres": -5,
+      "Obligations": 10
+    }
+  }
+  

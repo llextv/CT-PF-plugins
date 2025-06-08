@@ -1,0 +1,15 @@
+{
+    "name": "Crise Systémique des Hedge Funds",
+    "description": "Des hedge funds systémiques explosent",
+    "details": "Une série de fonds spéculatifs surendettés implosent simultanément, entraînant une panique sur les marchés dérivés et une contagion sur les marchés mondiaux.",
+    "color": "#dc2626",
+    "duration": "14",
+    "impact": {
+      "Action": -48,
+      "Etf": -39,
+      "Crypto": -25,
+      "MatierePremieres": 8,
+      "Obligations": 15
+    }
+  }
+  

@@ -1,0 +1,15 @@
+{
+    "name": "Crash Post-IPO Géant",
+    "description": "Effondrement d'une entreprise emblématique après son IPO",
+    "details": "Une entreprise très attendue s’introduit en bourse mais s'effondre rapidement, entraînant une perte de confiance dans les introductions en bourse à l'échelle mondiale.",
+    "color": "#be123c",
+    "duration": "14",
+    "impact": {
+      "Action": -28,
+      "Etf": -25,
+      "Crypto": -5,
+      "MatierePremieres": 5,
+      "Obligations": 7
+    }
+  }
+  

@@ -1,0 +1,15 @@
+{
+    "name": "Dérégulation Sauvage des Marchés",
+    "description": "Suppression des garde-fous réglementaires",
+    "details": "Des réformes extrêmes retirent les principales régulations du marché financier, provoquant une volatilité extrême et des manipulations de cours.",
+    "color": "#f43f5e",
+    "duration": "10",
+    "impact": {
+      "Action": -30,
+      "Etf": -25,
+      "Crypto": -5,
+      "MatierePremieres": 10,
+      "Obligations": 0
+    }
+  }
+  

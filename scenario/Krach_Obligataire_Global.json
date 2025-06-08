@@ -1,0 +1,15 @@
+{
+    "name": "Krach Obligataire Global",
+    "description": "Effondrement brutal du marché obligataire mondial",
+    "details": "Une remontée fulgurante des taux d'intérêt déclenche une vente massive d'obligations d'État et d'entreprise, affectant les portefeuilles institutionnels et provoquant une onde de choc mondiale.",
+    "color": "#dc2626",
+    "duration": "18",
+    "impact": {
+      "Action": -35,
+      "Etf": -30,
+      "Crypto": -15,
+      "MatierePremieres": 5,
+      "Obligations": -50
+    }
+  }
+  

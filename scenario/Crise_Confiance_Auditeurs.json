@@ -1,0 +1,15 @@
+{
+    "name": "Crise de Confiance dans les Auditeurs",
+    "description": "Les grands cabinets de conseil mis en cause",
+    "details": "Des scandales d’audit remettent en cause l'intégrité des bilans financiers des grandes entreprises, entraînant un retrait massif des investisseurs.",
+    "color": "#e11d48",
+    "duration": "12",
+    "impact": {
+      "Action": -40,
+      "Etf": -30,
+      "Crypto": -10,
+      "MatierePremieres": 6,
+      "Obligations": 20
+    }
+  }
+  

@@ -1,0 +1,15 @@
+{
+    "name": "Effondrement des Startups Tech",
+    "description": "Bulle spéculative tech en phase terminale",
+    "details": "La valorisation excessive des startups technologiques non rentables éclate, déclenchant un effondrement des indices de croissance et des fonds technos.",
+    "color": "#b91c1c",
+    "duration": "16",
+    "impact": {
+      "Action": -42,
+      "Etf": -38,
+      "Crypto": -25,
+      "MatierePremieres": 8,
+      "Obligations": 12
+    }
+  }
+  

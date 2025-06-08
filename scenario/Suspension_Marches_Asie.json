@@ -1,0 +1,15 @@
+{
+    "name": "Suspension des Marchés Asiatiques",
+    "description": "Fermeture soudaine des marchés asiatiques majeurs",
+    "details": "Suite à une instabilité géopolitique, plusieurs bourses asiatiques suspendent leurs activités indéfiniment, paralysant les flux mondiaux d’investissement.",
+    "color": "#dc2626",
+    "duration": "8",
+    "impact": {
+      "Action": -35,
+      "Etf": -30,
+      "Crypto": -18,
+      "MatierePremieres": 12,
+      "Obligations": 10
+    }
+  }
+  

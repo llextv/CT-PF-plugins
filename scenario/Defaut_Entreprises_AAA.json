@@ -1,0 +1,15 @@
+{
+    "name": "Défaut Massif d’Entreprises Notées AAA",
+    "description": "Des entreprises notées AAA font faillite",
+    "details": "Plusieurs multinationales supposées sûres s’avèrent surestimées et font défaut, créant un choc de confiance sur la solidité du crédit.",
+    "color": "#b91c1c",
+    "duration": "18",
+    "impact": {
+      "Action": -50,
+      "Etf": -42,
+      "Crypto": -15,
+      "MatierePremieres": 5,
+      "Obligations": -20
+    }
+  }
+  

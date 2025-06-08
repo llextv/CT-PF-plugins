@@ -1,0 +1,15 @@
+{
+    "name": "Attaque Systémique sur les ETF Synthétiques",
+    "description": "Faillite de fournisseurs d’ETF dérivés",
+    "details": "Des ETF synthétiques explosent suite à la faillite de contreparties, révélant la fragilité de certains produits passifs et causant un effet de contagion.",
+    "color": "#b91c1c",
+    "duration": "15",
+    "impact": {
+      "Action": -38,
+      "Etf": -50,
+      "Crypto": -12,
+      "MatierePremieres": 5,
+      "Obligations": 10
+    }
+  }
+  

@@ -1,0 +1,15 @@
+{
+    "name": "Scandale Comptable GAFAM",
+    "description": "Fraude comptable massive chez un géant technologique",
+    "details": "Un géant du numérique est accusé de manipulation comptable sur plusieurs années, déclenchant un effondrement sectoriel et des enquêtes globales sur les Big Tech.",
+    "color": "#991b1b",
+    "duration": "20",
+    "impact": {
+      "Action": -50,
+      "Etf": -42,
+      "Crypto": -30,
+      "MatierePremieres": 10,
+      "Obligations": 20
+    }
+  }
+  

@@ -1,0 +1,15 @@
+{
+    "name": "Explosion des Frais de Refinancement",
+    "description": "Les entreprises ne peuvent plus se refinancer",
+    "details": "La hausse brutale des taux rend le refinancement trop coûteux pour les entreprises fortement endettées, provoquant une vague de défauts et des licenciements massifs.",
+    "color": "#e11d48",
+    "duration": "18",
+    "impact": {
+      "Action": -45,
+      "Etf": -40,
+      "Crypto": -20,
+      "MatierePremieres": 5,
+      "Obligations": 15
+    }
+  }
+  
