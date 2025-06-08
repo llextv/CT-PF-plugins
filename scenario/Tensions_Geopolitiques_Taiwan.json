@@ -1,0 +1,15 @@
+{
+    "name": "Tensions géopolitiques à Taïwan",
+    "description": "Montée des tensions USA-Chine",
+    "details": "Un conflit latent autour de Taïwan provoque une onde de choc sur les marchés technologiques et renforce les investissements de précaution.",
+    "color": "#ea580c",
+    "duration": "9",
+    "impact": {
+      "Action": -15,
+      "Etf": -10,
+      "Crypto": -5,
+      "MatierePremieres": 20,
+      "Obligations": 10
+    }
+  }
+  

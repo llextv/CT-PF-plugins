@@ -1,0 +1,15 @@
+{
+    "name": "Crise Énergétique Européenne",
+    "description": "Hausse brutale des prix de l'énergie",
+    "details": "Les tensions géopolitiques et les coupures d'approvisionnement en gaz provoquent une flambée des prix de l’énergie en Europe.",
+    "color": "#059669",
+    "duration": "10",
+    "impact": {
+      "Action": -20,
+      "Etf": -15,
+      "Crypto": -5,
+      "MatierePremieres": 35,
+      "Obligations": 5
+    }
+  }
+  

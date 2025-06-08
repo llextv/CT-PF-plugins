@@ -1,0 +1,15 @@
+{
+    "name": "Refus du dollar comme monnaie de réserve",
+    "description": "Pays émergents abandonnent le dollar",
+    "details": "Un groupe de pays décide de ne plus utiliser le dollar pour les échanges internationaux, déclenchant une perte de confiance massive et une chute du billet vert.",
+    "color": "#0ea5e9",
+    "duration": "16",
+    "impact": {
+      "Action": -20,
+      "Etf": -10,
+      "Crypto": 25,
+      "MatierePremieres": 30,
+      "Obligations": -30
+    }
+  }
+  

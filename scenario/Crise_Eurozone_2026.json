@@ -1,0 +1,15 @@
+{
+    "name": "Crise de l'Eurozone 2026",
+    "description": "Sortie potentielle d’un pays membre",
+    "details": "Des dettes publiques explosent, des tensions politiques internes mettent en péril la stabilité de l’euro, faisant craindre une désintégration de l’union monétaire.",
+    "color": "#334155",
+    "duration": "14",
+    "impact": {
+      "Action": -35,
+      "Etf": -30,
+      "Crypto": 15,
+      "MatierePremieres": 0,
+      "Obligations": -25
+    }
+  }
+  

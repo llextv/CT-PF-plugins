@@ -1,0 +1,15 @@
+{
+    "name": "Krach Flash IA 2030",
+    "description": "Défaillance des algorithmes de trading",
+    "details": "Un bug massif dans des IA de trading provoque un krach instantané sur les marchés, suivi d'une reprise partielle après intervention humaine.",
+    "color": "#0f172a",
+    "duration": "4",
+    "impact": {
+      "Action": -35,
+      "Etf": -30,
+      "Crypto": -45,
+      "MatierePremieres": -10,
+      "Obligations": 20
+    }
+  }
+  

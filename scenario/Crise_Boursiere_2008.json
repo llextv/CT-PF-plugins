@@ -1,0 +1,15 @@
+{
+    "name": "Crise Boursière de 2008",
+    "description": "Effondrement global suite à la crise des subprimes",
+    "details": "Le système financier mondial vacille suite à l'effondrement de Lehman Brothers et à la crise des prêts hypothécaires à risque. Les marchés chutent brutalement, les gouvernements interviennent.",
+    "color": "#b91c1c",
+    "duration": "24",
+    "impact": {
+      "Action": -55,
+      "Etf": -50,
+      "Crypto": -5,
+      "MatierePremieres": -30,
+      "Obligations": 10
+    }
+  }
+  

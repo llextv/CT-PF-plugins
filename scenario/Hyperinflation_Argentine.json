@@ -1,0 +1,15 @@
+{
+    "name": "Hyperinflation en Argentine",
+    "description": "Perte de confiance dans la monnaie locale",
+    "details": "L'inflation atteint des niveaux records. La monnaie locale s'effondre, les investisseurs fuient vers les actifs réels.",
+    "color": "#e11d48",
+    "duration": "12",
+    "impact": {
+      "Action": -25,
+      "Etf": -10,
+      "Crypto": 30,
+      "MatierePremieres": 20,
+      "Obligations": -40
+    }
+  }
+  

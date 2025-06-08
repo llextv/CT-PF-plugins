@@ -1,0 +1,15 @@
+{
+    "name": "Cyberattaque Boursière Mondiale",
+    "description": "Piratage massif des infrastructures financières",
+    "details": "Des hackers paralysent plusieurs places boursières majeures, provoquant une suspension des échanges et une crise de confiance des investisseurs.",
+    "color": "#6d28d9",
+    "duration": "5",
+    "impact": {
+      "Action": -40,
+      "Etf": -35,
+      "Crypto": -5,
+      "MatierePremieres": 10,
+      "Obligations": 20
+    }
+  }
+  

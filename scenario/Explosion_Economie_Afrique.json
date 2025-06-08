@@ -1,0 +1,15 @@
+{
+    "name": "Explosion Économique en Afrique",
+    "description": "Croissance rapide et innovation technologique",
+    "details": "L'Afrique devient un pôle d’innovation numérique et énergétique. Les capitaux affluent, les marchés s’envolent.",
+    "color": "#22c55e",
+    "duration": "36",
+    "impact": {
+      "Action": 25,
+      "Etf": 20,
+      "Crypto": 30,
+      "MatierePremieres": 10,
+      "Obligations": -10
+    }
+  }
+  

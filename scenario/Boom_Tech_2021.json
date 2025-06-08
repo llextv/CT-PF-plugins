@@ -1,0 +1,15 @@
+{
+    "name": "Boom Technologique 2021",
+    "description": "Explosion des valeurs tech post-COVID",
+    "details": "Les valeurs technologiques s'envolent après la pandémie, soutenues par les politiques monétaires et l'adoption numérique massive.",
+    "color": "#2563eb",
+    "duration": "18",
+    "impact": {
+      "Action": 40,
+      "Etf": 35,
+      "Crypto": 60,
+      "MatierePremieres": 5,
+      "Obligations": -15
+    }
+  }
+  

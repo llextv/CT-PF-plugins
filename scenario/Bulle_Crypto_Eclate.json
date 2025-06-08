@@ -1,0 +1,15 @@
+{
+    "name": "Explosion de la bulle crypto",
+    "description": "Chute brutale des crypto-actifs",
+    "details": "Une vague de régulation mondiale et des scandales massifs entraînent une chute brutale de la confiance dans les crypto-actifs.",
+    "color": "#7c3aed",
+    "duration": "6",
+    "impact": {
+      "Action": -10,
+      "Etf": -5,
+      "Crypto": -70,
+      "MatierePremieres": 5,
+      "Obligations": 15
+    }
+  }
+  

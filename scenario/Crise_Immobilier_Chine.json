@@ -1,0 +1,15 @@
+{
+    "name": "Crise de l'immobilier en Chine",
+    "description": "Effondrement du secteur immobilier chinois",
+    "details": "Les géants de la construction font faillite en chaîne. Les investisseurs fuient les marchés émergents. L’effet domino atteint les marchés mondiaux.",
+    "color": "#be123c",
+    "duration": "15",
+    "impact": {
+      "Action": -30,
+      "Etf": -25,
+      "Crypto": -15,
+      "MatierePremieres": -5,
+      "Obligations": 10
+    }
+  }
+  

@@ -1,0 +1,15 @@
+{
+    "name": "Crise Climatique Extrême",
+    "description": "Catastrophes naturelles successives",
+    "details": "Ouragans, sécheresses et incendies massifs provoquent des pertes économiques colossales et désorganisent les chaînes d’approvisionnement mondiales.",
+    "color": "#dc2626",
+    "duration": "24",
+    "impact": {
+      "Action": -20,
+      "Etf": -15,
+      "Crypto": -5,
+      "MatierePremieres": 25,
+      "Obligations": 5
+    }
+  }
+  
