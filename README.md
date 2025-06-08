@@ -1,35 +1,109 @@
-# 🌐 Plugin Marketplace - Scénarios pour CT-PF App
+# 📦 Plugin Marketplace — Scénarios pour CT-PF
 
-Bienvenue dans le dépôt officiel des **plugins communautaires** pour [Nom de l’Application] !  
-Ce dépôt sert de **marketplace décentralisée** : les utilisateurs peuvent **contribuer**, **partager** et **ajouter des scénarios** depuis ce dépôt directement dans l’application.
+Bienvenue dans la marketplace communautaire de scénarios pour **CT-PF**, une application mobile de simulation de crises économiques. Vous pouvez :
 
----
-
-## 🚀 Ajouter un scénario dans l'app
-
-1. Ouvrir l'application
-2. Aller dans `Scénarios > Ajouter un nouveau scénario`
-3. Coller **l'URL brute du fichier plugin** depuis ce repo, par exemple :
-github.com/llextv/myFirstPlugin.json
-
-4. Appuyez sur `Confirmer` : le scénario sera chargé et ajouté à votre application.
+- 🧠 **Télécharger un scénario** via l'URL d’un fichier `.json` brut
+- 🛠️ **Créer votre propre plugin** de scénario
+- 📬 **Soumettre une pull request** pour le partager dans la marketplace publique
 
 ---
 
-## 🔧 Format d’un plugin
+## ✅ Format d’un Plugin JSON
 
-Les plugins doivent être des fichiers `.json` (ou `.js` structurés) avec la structure suivante :
+Chaque fichier doit respecter **exactement** la structure suivante :
 
 ```json
 {
   "name": "Nom du scénario",
-  "description": "Brève description de ce que fait ce scénario",
-  "version": "1.0.0",
-  "actions": [
-    {
-      "type": "action_type",
-      "target": "target_device",
-      "value": "optional_value"
-    }
-  ]
+  "description": "Résumé court",
+  "details": "Description complète du scénario",
+  "color": "#ef4444",
+  "duration": "20",
+  "impact": {
+    "Action": -40,
+    "Etf": -35,
+    "Crypto": -10,
+    "MatierePremieres": +15,
+    "Obligations": +5
+  }
 }
+```
+### 📝 Exemple explicatif
+
+Dans cet exemple, les données importées seront interprétées comme suit :
+
+* **Nom du scénario** : `Nom du scénario`
+* **Description** : `Résumé court`
+* **Détails** : `Description complète du scénario`
+* **Couleur** : `#ef4444` (affiche un badge coloré dans l’application)
+* **Durée** : `20` mois
+* **Impact sur les classes d'actifs** :
+
+  * `Action` : -40%
+  * `Etf` : -35%
+  * `Crypto` : -10%
+  * `MatierePremieres` : +15%
+  * `Obligations` : +5%
+
+> ⚠️ **Important** : pour indiquer une hausse, écrivez **+5** et non simplement `5`. Les signes `+` ou `-` sont obligatoires pour tous les chiffres.
+
+---
+
+## 📥 Comment importer dans CT-PF
+
+1. Ouvrez l’app CT-PF
+2. Allez dans `Simulateur > Ajouter un scénario`
+3. Collez l’URL **brute** du fichier JSON (ex. GitHub raw)
+4. Cliquez sur **Importer**
+
+---
+
+## 🧪 Exemple de scénario de test
+
+Fichier : `scenarios/crise-bancaire-express.json`
+
+```json
+{
+  "name": "Crise Bancaire Express",
+  "description": "Défaillance rapide d'une grande banque systémique",
+  "details": "Une grande banque internationale fait faillite du jour au lendemain, déclenchant une panique sur les marchés financiers et des mesures d'urgence des banques centrales.",
+  "color": "#991b1b",
+  "duration": "12",
+  "impact": {
+    "Action": -45,
+    "Etf": -40,
+    "Crypto": -20,
+    "MatierePremieres": +10,
+    "Obligations": +8
+  }
+}
+```
+
+---
+
+## 🙋 Soumettre votre plugin
+
+1. Forkez ce dépôt
+2. Ajoutez votre fichier `.json` dans le dossier `scenarios/`
+3. Assurez-vous que sa structure est conforme
+4. Ouvrez une **Pull Request** claire avec un titre et une description
+
+---
+
+## 🔒 Sécurité
+
+Chaque plugin est **validé automatiquement** par l'application avant import :
+
+* Structure correcte
+* Types valides
+* Aucun script ou exécution dynamique
+
+---
+
+## 📮 Contact
+
+Pour toute question, suggestion ou contribution :
+
+* Ouvrez une issue sur GitHub
+* Ou contactez le mainteneur du projet
+
