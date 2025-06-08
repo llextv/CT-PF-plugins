@@ -1,9 +1,9 @@
-name: Validation du JSON 
+name: Validation du JSON
 
 on:
   pull_request:
     paths:
-      - '*.json'  
+      - '**/*.json'  # S’assure que tous les JSON sont pris
 
 jobs:
   validate-json:
