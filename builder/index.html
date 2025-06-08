@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plugins Builder</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input, textarea, button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="color"] {
+            width: auto;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        textarea {
+            height: 150px;
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>👋 Bienvenue sur le Plugin Builder de CT-PF</h1>
+    <form id="plugin-form">
+        <div class="form-group">
+            <label for="name">Nom du scénario</label>
+            <input type="text" name="name" id="name" placeholder="Nom du scénario" required>
+        </div>
+        <div class="form-group">
+            <label for="description">Description du scénario</label>
+            <input type="text" name="description" id="description" placeholder="Description du scénario" required>
+        </div>
+        <div class="form-group">
+            <label for="details">Détails du scénario</label>
+            <input type="text" name="details" id="details" placeholder="Détails du scénario">
+        </div>
+        <div class="form-group">
+            <label for="color">Couleur</label>
+            <input type="color" name="color" id="color">
+        </div>
+        <div class="form-group">
+            <label for="duration">Durée en mois</label>
+            <input type="number" name="duration" id="duration" placeholder="Durée en mois" required>
+        </div>
+        <fieldset>
+            <legend>Description de l'impact</legend>
+            <div class="form-group">
+                <label for="actions">Actions (Impact en % [-100; 100])</label>
+                <input type="number" name="actions" id="actions" placeholder="Impact en % [-100; 100]" required>
+            </div>
+            <div class="form-group">
+                <label for="etf">ETF (Impact en % [-100; 100])</label>
+                <input type="number" name="etf" id="etf" placeholder="Impact en % [-100; 100]" required>
+            </div>
+            <div class="form-group">
+                <label for="crypto">Crypto (Impact en % [-100; 100])</label>
+                <input type="number" name="crypto" id="crypto" placeholder="Impact en % [-100; 100]" required>
+            </div>
+            <div class="form-group">
+                <label for="matprem">Matières Premières (Impact en % [-100; 100])</label>
+                <input type="number" name="matprem" id="matprem" placeholder="Impact en % [-100; 100]" required>
+            </div>
+            <div class="form-group">
+                <label for="obligations">Obligations (Impact en % [-100; 100])</label>
+                <input type="number" name="obligations" id="obligations" placeholder="Impact en % [-100; 100]" required>
+            </div>
+        </fieldset>
+        <button type="button" onclick="onGenerate()">Générer le plugin</button>
+        <div class="form-group">
+            <label for="output">Résultat</label>
+            <textarea readonly id="output" class="output"></textarea>
+        </div>
+    </form>
+    <script>
+        const onGenerate = () => {
+            const element = document.getElementById('output');
+
+            const name = document.getElementById('name').value;
+            const description = document.getElementById('description').value;
+            const details = document.getElementById('details').value;
+            const color = document.getElementById('color').value;
+            const duration = document.getElementById('duration').value;
+            const actions = document.getElementById('actions').value;
+            const etf = document.getElementById('etf').value;
+            const crypto = document.getElementById('crypto').value;
+            const matprem = document.getElementById('matprem').value;
+            const obligations = document.getElementById('obligations').value;
+
+            let plugin = {
+                name: name,
+                description: description,
+                details: details,
+                color: color,
+                duration: parseInt(duration, 10),
+                impact: {
+                    actions: parseInt(actions, 10),
+                    etf: parseInt(etf, 10),
+                    crypto: parseInt(crypto, 10),
+                    matprem: parseInt(matprem, 10),
+                    obligations: parseInt(obligations, 10)
+                }
+            };
+
+            plugin = JSON.stringify(plugin, null, 2);
+            console.log(plugin);
+            element.value = plugin;
+        }
+    </script>
+</body>
+</html>
