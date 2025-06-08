@@ -3,7 +3,7 @@ name: Validation du JSON
 on:
   pull_request:
     paths:
-      - '**/*.json'  # S’assure que tous les JSON sont pris
+      - '**/*.json' 
 
 jobs:
   validate-json:
