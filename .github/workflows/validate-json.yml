@@ -13,4 +13,4 @@ jobs:
 
       - name: Valider les fichiers JSON
         run: |
-          npx ajv-cli validate -s schema.json -d 'scenarios/*.json'
+          npx ajv-cli validate -s ./schema.json -d './scenarios/*.json'
