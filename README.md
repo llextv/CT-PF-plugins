@@ -71,8 +71,8 @@ Fichier : `scenarios/crise-bancaire-express.json`
     "Action": -45,
     "Etf": -40,
     "Crypto": -20,
-    "MatierePremieres": +10,
-    "Obligations": +8
+    "MatierePremieres": 10,
+    "Obligations": 8
   }
 }
 ```
