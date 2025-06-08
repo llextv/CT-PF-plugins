@@ -11,17 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
-
-      - name: Installer les dépendances
-        run: npm install
-
       - name: Valider les fichiers JSON
         run: |
-          for file in scenarios/*.json; do
-            echo "Vérification de $file"
-            node validate-json.js "$file"
-          done
+          npx ajv-cli validate -s schema.json -d 'scenarios/*.json'
