@@ -82,7 +82,7 @@ Fichier : `scenarios/crise-bancaire-express.json`
 ## 🙋 Soumettre votre plugin
 
 1. Forkez ce dépôt
-2. Ajoutez votre fichier `.json` dans le dossier `scenarios/`
+2. Ajoutez votre fichier `.json`
 3. Assurez-vous que sa structure est conforme
 4. Ouvrez une **Pull Request** claire avec un titre et une description
 
