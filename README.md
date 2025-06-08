@@ -58,11 +58,11 @@ Dans cet exemple, les données importées seront interprétées comme suit :
 
 ## 🧪 Exemple de scénario de test
 
-Fichier : `scenarios/crise-bancaire-express.json`
+Fichier : `crise-bancaire-expressV3.json`
 
 ```json
 {
-  "name": "Crise Bancaire Express",
+  "name": "Crise Bancaire Express V3",
   "description": "Défaillance rapide d'une grande banque systémique",
   "details": "Une grande banque internationale fait faillite du jour au lendemain, déclenchant une panique sur les marchés financiers et des mesures d'urgence des banques centrales.",
   "color": "#991b1b",
