@@ -23,8 +23,8 @@ Chaque fichier doit respecter **exactement** la structure suivante :
     "Action": -40,
     "Etf": -35,
     "Crypto": -10,
-    "MatierePremieres": +15,
-    "Obligations": +5
+    "MatierePremieres": 15,
+    "Obligations": 5
   }
 }
 ```
@@ -44,8 +44,6 @@ Dans cet exemple, les données importées seront interprétées comme suit :
   * `Crypto` : -10%
   * `MatierePremieres` : +15%
   * `Obligations` : +5%
-
-> ⚠️ **Important** : pour indiquer une hausse, écrivez **+5** et non simplement `5`. Les signes `+` ou `-` sont obligatoires pour tous les chiffres.
 
 ---
 
