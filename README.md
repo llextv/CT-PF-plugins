@@ -58,7 +58,7 @@ Dans cet exemple, les données importées seront interprétées comme suit :
 
 ## 🧪 Exemple de scénario de test
 
-Fichier : `crise-bancaire-expressV3.json`
+Fichier : `Crise_Bancaire_ExpressV3.json`
 
 ```json
 {
