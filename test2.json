@@ -1,0 +1,15 @@
+{
+    "name": "Test",
+    "description": "Défaillance rapide d'une grande banque systémique",
+    "details": "Une grande banque internationale fait faillite du jour au lendemain, déclenchant une panique sur les marchés financiers et des mesures d'urgence des banques centrales.",
+    "color": "#991b1b",
+    "duration": "12",
+    "impact": {
+      "Action": -45,
+      "Etf": -40,
+      "Crypto": -20,
+      "MatierePremieres": 10,
+      "Obligations": 8
+    }
+  }
+  
