@@ -7,22 +7,24 @@ let allPlugins = [];
 
 
 const getAllPlugin = () => {
-    const element = document.getElementById('scenarioList');
-    fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/${folder}`)
-    .then(response => response.json())
-    .then(data => {
-      data.forEach(file => {
-        let newName = file.name.replace(".json", "");
-        newName = newName.replaceAll("_", " ");
-        allPlugins.push({completeName: file.name, name: newName, link: file.download_url});
-        let newElement = element.appendChild(document.createElement("li"))
-        let newLinkElement = newElement.appendChild(document.createElement("a"))
-        newLinkElement.innerText = newName;
-        newLinkElement.href = file.download_url;
-      });
-      
-    })
-    .catch(err => console.error('Erreur:', err));
+  let numberOfAvailable = document.getElementById("number_of_available");
+  
+  const element = document.getElementById('scenarioList');
+  fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/${folder}`)
+  .then(response => response.json())
+  .then(data => {
+    data.forEach(file => {
+      let newName = file.name.replace(".json", "");
+      newName = newName.replaceAll("_", " ");
+      allPlugins.push({completeName: file.name, name: newName, link: file.download_url});
+      let newElement = element.appendChild(document.createElement("li"))
+      let newLinkElement = newElement.appendChild(document.createElement("a"))
+      newLinkElement.innerText = newName;
+      newLinkElement.href = file.download_url;
+    });
+    numberOfAvailable.innerText = `Scénarios disponibles (${allPlugins.lenght})`;
+  })
+  .catch(err => console.error('Erreur:', err));
 };
 
 const search = () => {

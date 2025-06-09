@@ -1,0 +1,14 @@
+{
+    "name": "Fermeture du Détroit d’Hormuz",
+    "description": "Blocage stratégique par conflit au Moyen-Orient",
+    "details": "Des tensions militaires entraînent la fermeture du détroit d’Hormuz, bloquant 30% du commerce mondial de pétrole. Les prix des matières premières explosent.",
+    "color": "#ef4444",
+    "duration": "20",
+    "impact": {
+      "Action": -30,
+      "Etf": -25,
+      "Crypto": -8,
+      "MatierePremieres": 35,
+      "Obligations": 10
+    }
+}

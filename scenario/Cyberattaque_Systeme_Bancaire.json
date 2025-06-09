@@ -1,0 +1,14 @@
+{
+    "name": "Cyberattaque Système Bancaire",
+    "description": "Piratage massif des banques",
+    "details": "Une cyberattaque coordonnée cible les systèmes bancaires mondiaux, paralysant les transactions et semant la panique sur les marchés.",
+    "color": "#ef4444",
+    "duration": "20",
+    "impact": {
+      "Action": -35,
+      "Etf": -30,
+      "Crypto": -5,
+      "MatierePremieres": 20,
+      "Obligations": 5
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Effondrement Immobilier US 2026",
+    "description": "Chute brutale du marché immobilier américain",
+    "details": "La combinaison de taux d'intérêt élevés et de surévaluation massive déclenche une crise immobilière majeure aux États-Unis. Les institutions financières sont fortement touchées.",
+    "color": "#ef4444",
+    "duration": "20",
+    "impact": {
+      "Action": -45,
+      "Etf": -35,
+      "Crypto": -5,
+      "MatierePremieres": 10,
+      "Obligations": 10
+    }
+}

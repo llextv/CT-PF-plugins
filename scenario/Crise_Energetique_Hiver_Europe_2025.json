@@ -1,0 +1,14 @@
+{
+    "name": "Crise Énergétique Hiver Europe 2025",
+    "description": "Pénurie de gaz pendant un hiver rigoureux",
+    "details": "Un hiver extrêmement froid combiné à des tensions géopolitiques provoque une grave pénurie de gaz naturel en Europe. Les marchés réagissent brutalement, en particulier les actions et les ETF.",
+    "color": "#ef4444",
+    "duration": "20",
+    "impact": {
+      "Action": -40,
+      "Etf": -35,
+      "Crypto": -10,
+      "MatierePremieres": 15,
+      "Obligations": 5
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Scandale Comptable GAFAM",
+    "description": "Fraude comptable massive révélée",
+    "details": "Un géant technologique américain (GAFAM) est accusé d’avoir falsifié ses comptes pendant une décennie. Le secteur technologique s'effondre, provoquant une onde de choc sur les marchés globaux.",
+    "color": "#ef4444",
+    "duration": "20",
+    "impact": {
+      "Action": -50,
+      "Etf": -40,
+      "Crypto": -15,
+      "MatierePremieres": 5,
+      "Obligations": 8
+    }
+}
