@@ -22,7 +22,7 @@ const getAllPlugin = () => {
       newLinkElement.innerText = newName;
       newLinkElement.href = file.download_url;
     });
-    numberOfAvailable.innerText = `Scénarios disponibles (${allPlugins.lenght})`;
+    numberOfAvailable.innerText = `Scénarios disponibles (${allPlugins.length})`;
   })
   .catch(err => console.error('Erreur:', err));
 };
@@ -46,6 +46,3 @@ const search = () => {
     };
   });
 };
-
-
-document.getElementById("searched_box").addEventListener("change", () => {search()});
