@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketplace CT-PF</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="pluginsManager.js"></script>
+</head>
+<body>
+    <header class="header">
+        <h1>Bienvenue sur le MarketPlace de CT-PF</h1>
+        <p>Importez vos scénarios préférés crée par la communauté.</p>
+    </header>
+    <main class="main-content">
+        <section class="search-section">
+            <div class="search-bar">
+                <input type="text" placeholder="Rechercher un scénario..." id="search-input" class="search-input" onchange="search()">
+                <button class="search-button" onclick="search()">Rechercher</button>
+            </div>
+        </section>
+        <section class="results-section">
+            <h2>Résultats de recherche</h2>
+            <ul id="searched_box" class="results-list">
+            </ul>
+        </section>
+        <section class="scenario-section">
+            <h2>Scénarios disponibles</h2>
+            <ul id="scenarioList" class="scenario-list">
+                <script>
+                    getAllPlugin();
+                </script>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2025 CT-PF Marketplace. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
